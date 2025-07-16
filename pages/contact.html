@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esmo | Contact</title>
+
+    <style>
+      .header {
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        padding: 20px 0;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: #2d2d2d;
+        font-weight: 500;
+        font-size: 1.1rem;
+        transition: color 0.2s;
+      }
+
+      .nav a:hover {
+        color: #ff6f61;
+      }
+
+      .contact {
+        max-width: 500px;
+        margin: 60px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+        padding: 40px 32px;
+      }
+
+      .contact h2 {
+        color: #ff6f61;
+        margin-bottom: 20px;
+        font-size: 2rem;
+      }
+
+      .contact p {
+        margin-bottom: 24px;
+        font-size: 1.1rem;
+      }
+
+      .contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .contact input,
+      .contact textarea {
+        padding: 12px 14px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        font-size: 1rem;
+        background: #fafafa;
+        resize: none;
+        transition: border-color 0.2s;
+      }
+
+      .contact input:focus,
+      .contact textarea:focus {
+        border-color: #ff6f61;
+        outline: none;
+      }
+
+      .contact button {
+        background: #ff6f61;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+
+      .contact button:hover {
+        background: #ff3b2e;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="../index.html">მთავარი</a>
+        <a href="about-me.html">ჩემს შესახებ</a>
+        <a href="projects.html">პროექტები</a>
+        <a href="contact.html">კონტაქტი</a>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h2>დაკავშირება</h2>
+      <p>გაქვს შეკითხვა? გინდა რამე მითხრა? 💌</p>
+      <form>
+        <input type="text" placeholder="სახელი" required />
+        <input type="email" placeholder="იმეილი" required />
+        <textarea placeholder="შეტყობინება..." required></textarea>
+        <button type="submit">გაგზავნა</button>
+      </form>
+    </section>
+  </body>
+</html>

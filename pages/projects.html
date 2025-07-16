@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esmo | Projects</title>
+
+    <style>
+      .header {
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        padding: 20px 0;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: #2d2d2d;
+        font-weight: 500;
+        font-size: 1.1rem;
+        transition: color 0.2s;
+      }
+
+      .nav a:hover {
+        color: #ff6f61;
+      }
+
+      .projects {
+        max-width: 800px;
+        margin: 60px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+        padding: 40px 32px;
+      }
+
+      .projects h2 {
+        color: #ff6f61;
+        margin-bottom: 22px;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .projects p {
+        font-size: 1.1rem;
+        margin-bottom: 28px;
+        text-align: center;
+      }
+
+      .project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+        justify-content: center;
+      }
+
+      .card {
+        background: #fafafa;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        padding: 28px 22px;
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: transform 0.18s, box-shadow 0.18s;
+      }
+
+      .card:hover {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 6px 24px rgba(255, 111, 97, 0.13);
+      }
+
+      .card h3 {
+        color: #ff6f61;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+      }
+
+      .card p {
+        margin-bottom: 10px;
+        color: #444;
+        font-size: 1rem;
+      }
+
+      .card a {
+        margin-top: auto;
+        color: #fff;
+        background: #ff6f61;
+        padding: 8px 18px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: background 0.18s;
+      }
+
+      .card a:hover {
+        background: #ff3b2e;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="../index.html">მთავარი</a>
+        <a href="about-me.html">ჩემს შესახებ</a>
+        <a href="projects.html">პროექტები</a>
+        <a href="contact.html">კონტაქტი</a>
+      </nav>
+    </header>
+
+    <section class="projects">
+      <h2>ჩემი პროექტები</h2>
+      <p>
+        აქ არის ის პროექტები, რომლებზეც ვიმუშავე ან ჯერ კიდევ ვმუშაობ. ნელ-ნელა
+        გავაფართოებ ჩემს პორტფოლიოს 💪
+      </p>
+
+      <div class="project-cards">
+        <div class="card">
+          <h3>პროექტის სახელი</h3>
+          <p>მოკლე აღწერა</p>
+          <p><strong>ტექნოლოგიები:</strong> HTML, CSS, JS</p>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
